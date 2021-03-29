@@ -1,25 +1,25 @@
 {
-    "format_version": 1,
-    "header": {
-        "description": "",
-        "name": "resource_pack",
-        "uuid": "085703ce-d7b7-4aea-9a56-8e1e1283267e",
-        "version": [
-            0,
-            0,
-            1
-        ]
-    },
-    "modules": [
-        {
-            "description": "",
-            "type": "resources",
-            "uuid": "db3d9db0-da02-4259-9589-cdc6c7f707ec",
-            "version": [
-                0,
-                0,
-                1
-            ]
-        }
+  "format_version": 1,
+  "header": {
+    "description": "",
+    "name": "resource_pack",
+    "uuid": "085703ce-d7b7-4aea-9a56-8e1e1283267e",
+    "version": [
+      0,
+      0,
+      1
     ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "db3d9db0-da02-4259-9589-cdc6c7f707ec",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
 }

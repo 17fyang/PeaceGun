@@ -12,7 +12,7 @@ class TutorialClientSystem(ClientSystem):
     def __init__(self, namespace, systemName):
         # 首先初始化TutorialClientSystem的基类ClientSystem
         super(TutorialClientSystem, self).__init__(namespace, systemName)
-        print "==== TutorialClientSystem Init ===="
+        print "==== PeaceGunClientSystem Init ===="
 
     # 函数名为Destroy才会被调用，在这个System被引擎回收的时候会调这个函数来销毁一些内容
     def Destroy(self):
