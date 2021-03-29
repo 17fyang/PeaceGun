@@ -1,0 +1,38 @@
+{
+    "Account": "m18476301719@163.com",
+    "AssertCacheDir": "E:\\MCStudioDownload\\EngineAssert",
+    "BlockNums": [
+        0,
+        0
+    ],
+    "BornPoint": [
+        0,
+        0,
+        0
+    ],
+    "CreateNew": true,
+    "DCWebUrl": "https://x19qadcweb.nie.netease.com",
+    "EditAddOnPaths": [
+        "E:\\MCStudioDownload\\work\\m18476301719@163.com\\Cpp\\AddOn\\e65f11a9443a4b10addfa8fefac78217"
+    ],
+    "EditLogFilePath": "E:\\MCStudioDownload\\work\\editor\\edit.log",
+    "EditMaterialPaths": [
+
+    ],
+    "EditName": "peaceGun",
+    "EditType": 3,
+    "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+    "GameType": 0,
+    "Id": null,
+    "IsMap": false,
+    "SaveBackAddOnPath": "E:\\MCStudioDownload\\work\\m18476301719@163.com\\Cpp\\AddOn\\629947998e61408fbda8706ce07adf3e",
+    "SaveBackMapPath": null,
+    "Seed": "",
+    "ServerName": "EXPR",
+    "ShowGpuDriverTips": false,
+    "ShowGuide": false,
+    "StudioPort": 11743,
+    "UserId": "33471",
+    "UserName": "乌鸦坐飞机亠",
+    "WorldType": 1
+}
