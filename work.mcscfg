@@ -5,7 +5,7 @@
   "Versions": null,
   "JavaType": 7,
   "Name": "peaceGun",
-  "UpdateTime": "2021-03-29T16:50:45.440997+08:00",
+  "UpdateTime": "2021-03-30T15:23:58.6770056+08:00",
   "IconName": "",
   "Md5": null,
   "CloudMd5": null,
@@ -29,7 +29,7 @@
   "OpenEditType": 0,
   "EditMapUID": "",
   "EditMapType": 1,
-  "TestMapUID": "6d0663e7873849e58edb9ad94198d45b",
+  "TestMapUID": "92ff181a92014af78cc4b9cb5ecd07ef",
   "TestJavaMapType": 0,
   "TestJavaGameVersion": "",
   "TestJavaGameMode": 0,
@@ -44,7 +44,7 @@
   "TestExperimentalGameplay": false,
   "TestStartWithMap": false,
   "SelectComponents": [
-    "60f8c1582dfb47549c7e9e45a8c9ad67",
+    "4ee5d0eab8234aa8b1f339017e579f48",
     "629947998e61408fbda8706ce07adf3e"
   ],
   "isSlim": false
