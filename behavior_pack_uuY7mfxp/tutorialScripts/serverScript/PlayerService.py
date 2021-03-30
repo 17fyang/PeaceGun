@@ -30,9 +30,17 @@ class PlayerService(Service):
         :param playerId:
         :return:
         '''
-        rotComp = compFactory.CreateRot(playerId)
-        rot = rotComp.GetRot()
+        rot = self.getPlayerRotation(playerId)
         return serverApi.GetDirFromRot(rot)
+
+    def getPlayerRotation(self, playerId):
+        '''
+        获取玩家旋转角
+        :param playerId:
+        :return:
+        '''
+        rotComp = compFactory.CreateRot(playerId)
+        return rotComp.GetRot()
 
 
 playerService = PlayerService()

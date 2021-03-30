@@ -9,3 +9,7 @@ DROP_TIMES = 20
 DROP_RANGE = 10.0
 # 枪林弹雨轰炸频率（n个tick一次）
 DROP_FREQUENCY = 4
+# 弹幕时间覆盖的旋转角（左右）
+R_ROTATION = 6
+# 弹幕时间间隔旋转角
+R_ROTATION_INTERVAL = 2
