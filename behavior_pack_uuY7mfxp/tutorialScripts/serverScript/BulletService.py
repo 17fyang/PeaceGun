@@ -26,13 +26,35 @@ class BulletService(Service):
         param = {
             'position': pos,
             'direction': direct,
+            'power': 3,
+            'damage': 10
+        }
+
+        if kwargs:
+            param.update(kwargs)
+
+        bulletId = bulletComp.CreateProjectileEntity(playerId, "peacegun:bullet", param)
+
+    def createSimpleBoom(self, playerId, pos, direct, **kwargs):
+        '''
+        创建一个炸弹
+        :param playerId:
+        :param pos:
+        :param direct:
+        :param kwargs:
+        :return:
+        '''
+        boomComp = serverApi.GetEngineCompFactory().CreateProjectile(playerService.getLevelId())
+        param = {
+            'position': pos,
+            'direction': direct,
             'power': 3
         }
 
         if kwargs:
             param.update(kwargs)
 
-        bulletId = bulletComp.CreateProjectileEntity(playerId, "minecraft:snowball", param)
+        boomId = boomComp.CreateProjectileEntity(playerId, "peacegun:boom", param)
 
     def runRangeSkill(self, playerId, middlePos, leftNum):
         '''
@@ -49,7 +71,7 @@ class BulletService(Service):
 
         # 实际的弹药落地点
         realPos = middlePos[0] + randomDirect[0] * randomDis, middlePos[1], middlePos[2] + randomDirect[1] * randomDis
-        self.createSimpleBullet(playerId, realPos, Vector.down())
+        self.createSimpleBoom(playerId, realPos, Vector.down())
 
         # 提交下一次轰炸任务
         if leftNum > 0:
@@ -103,7 +125,7 @@ class BulletService(Service):
         # 投掷偏移量，往上30°
         rot = ((rot[0] - 30), rot[1])
         direct = serverApi.GetDirFromRot(rot)
-        self.createSimpleBullet(playerId, pos, direct, power=1)
+        self.createSimpleBoom(playerId, pos, direct, power=1)
 
     def createSimpleBomb(self, playerId, bulletId, pos):
         '''

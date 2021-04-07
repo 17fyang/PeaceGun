@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "peacegun:bullet",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entity/red_bed"
+      },
+      "geometry": {
+        "default": "geometry.bullet"
+      },
+      "render_controllers": [
+        "controller.render.custom_arrow"
+      ]
+    }
+  }
+}
+  
